@@ -15,4 +15,7 @@
     )
     }}}
   # Run syncdb to install the database table and install the fixtures
+    {{{
+    python manage.py syncdb
+    }}}
   # Enjoy!
