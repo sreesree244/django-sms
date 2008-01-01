@@ -14,7 +14,7 @@
         ...
     )
     }}}
-  # Run syncdb to install the database table and install the fixtures
+  # Run management's *syncdb* command to install the database table and install the fixtures:
     {{{
     python manage.py syncdb
     }}}
