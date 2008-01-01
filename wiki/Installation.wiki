@@ -1,4 +1,4 @@
-#summary Installation Guide
+#summary For Fun and Profit!
 #labels Featured
 
 = Installation =
