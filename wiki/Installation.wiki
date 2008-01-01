@@ -1,0 +1,18 @@
+#summary Installation Guide
+#labels Featured
+
+= Installation =
+
+  # Add 'sms' to your INSTALLED_APPS list
+    {{{
+    INSTALLED_APPS = (
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.admin',
+        'sms',
+        ...
+    )
+    }}}
+  # Run syncdb to install the database table and install the fixtures
+  # Enjoy!
