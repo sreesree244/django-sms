@@ -1,21 +1,12 @@
-#summary For Fun and Profit!
 #labels Featured
+Installation
+============
 
-= Installation =
+To install `django-sms`:
+{{{
+    python setup.py install
+}}} 
+You can also place it anywhere in your Python path.
 
-  # Add 'sms' to your INSTALLED_APPS list
-    {{{
-    INSTALLED_APPS = (
-        'django.contrib.auth',
-        'django.contrib.contenttypes',
-        'django.contrib.sessions',
-        'django.contrib.admin',
-        'sms',
-        ...
-    )
-    }}}
-  # Run management's *syncdb* command to install the database table and install the fixtures:
-    {{{
-    python manage.py syncdb
-    }}}
-  # Enjoy!
+This application was tested with Django 1.0 and Python 2.4+, but should
+be backwards-compatible. Please report any and all compatibility issues!
